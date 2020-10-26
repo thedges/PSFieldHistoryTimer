@@ -7,6 +7,10 @@ This is simple component to show the amount of time that a field's value has bee
 
 ![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimer.png "PSFieldHistoryTimer")
 
+Another sample here:
+
+![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimerConfig2.png "PSFieldHistoryTimerConfig2")
+
 ## Component Configuration Parameters
 
 | Parameter  | Type | Definition |
@@ -21,9 +25,6 @@ Sample configuration like the following:
 
 ![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimerConfig.png "PSFieldHistoryTimerConfig")
 
-Another sample here:
-
-![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimerConfig2.png "PSFieldHistoryTimerConfig2")
 
 # Installation Instructions
 
