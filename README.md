@@ -21,6 +21,10 @@ Sample configuration like the following:
 
 ![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimerConfig.png "PSFieldHistoryTimerConfig")
 
+Another sample here:
+
+![alt text](https://github.com/thedges/PSFieldHistoryTimer/blob/main/PSFieldHistoryTimerConfig2.png "PSFieldHistoryTimerConfig2")
+
 # Installation Instructions
 
 <b>Here are steps to use this component:</b>
