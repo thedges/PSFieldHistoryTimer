@@ -1,0 +1,26 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name={icon} size="small"></lightning-icon>
+            <span class="slds-p-left_small"
+                style="font-weight: bold; font-size: var(--lwc-varFontSize5,1rem); line-height: var(--lwc-lineHeightHeading,1.25);">{title}</span>
+        </h3>
+        <template if:false={resp}>
+            <div style="height: 100px;">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+        </template>
+        <template if:true={resp}>
+            <div class="slds-p-top_x-small slds-p-bottom_medium slds-align_absolute-center">
+                <div>
+                    <span class="timer" style={timerStyle}>{timerVal}</span><br />
+                    <span class="curr-value">{currentValue}</span>
+                </div>
+            </div>
+            <template if:true={historyAvailable}>
+                <lightning-datatable data={resp.history} columns={columns} key-field="id" hide-checkbox-column="true">
+                </lightning-datatable>
+            </template>
+        </template>
+    </lightning-card>
+</template>
