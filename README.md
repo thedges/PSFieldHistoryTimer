@@ -35,7 +35,7 @@ Sample configuration like the following:
 2. Assign the **PSFieldHistoryTimer** permission set to whatever user needs access to this component.
 4. Drag the **psFieldHistoryTimer** component on to page and configure per the above parameters. That's it!
   
-<a href="https://githubsfdeploy.herokuapp.com">
+<a href="https://githubsfdeploy.herokuapp.com?owner=thedges&repo=PSFieldHistoryTimer&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
